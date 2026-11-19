@@ -5,6 +5,7 @@ import { AddOnSection } from './components/AddOnSection';
 import { CustomerFormSection } from './components/CustomerFormSection';
 import { PriceSummaryBar } from './components/PriceSummaryBar';
 import { ServiceCatalog } from './components/ServiceCatalog';
+import { StoreHoursInfo } from './components/StoreHoursInfo';
 import { WeightInputSection } from './components/WeightInputSection';
 import { ESTIMATION_DISCLAIMER, MAIN_SERVICES, type ServiceCode } from './config';
 import { calculateOrder } from './lib/calculator';
@@ -117,6 +118,7 @@ export default function App() {
           <p className="mt-1 text-sm text-neutral-600">
             Hitung estimasi biaya cucian Anda dan kirim pesanan ke WhatsApp.
           </p>
+          <StoreHoursInfo />
         </div>
       </header>
 
