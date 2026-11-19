@@ -1,0 +1,21 @@
+/* Gaya global aplikasi LaundryCalc dengan font lokal Plus Jakarta Sans dan Tailwind CSS. */
+@import "@fontsource/plus-jakarta-sans/400.css";
+@import "@fontsource/plus-jakarta-sans/500.css";
+@import "@fontsource/plus-jakarta-sans/600.css";
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #171717;
+    background-color: #fafafa;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #fafafa;
+    color: #171717;
+  }
+}
